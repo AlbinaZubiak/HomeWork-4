@@ -34,19 +34,8 @@ console.log(n)
 console.log(num)
 
 //Задание 6 
-let firstFriday = 1;
 
-for (let friday = firstFriday; friday <= 31; friday += 7) {
-    if (friday == 1) {
-        console.log(`6: It's friday the ${friday}st, so it's time to do a report.`);
-    }
-    else if (friday == 2) {
-        console.log(`6: It's friday the ${friday}nd, so it's time to do a report.`);
-    }
-    else if (friday == 3) {
-        console.log(`6: It's friday the ${friday}rd, so it's time to do a report.`);
-    }
-    else if (friday == 3) {
-        console.log(`6: It's friday the ${friday}th, so it's time to do a report.`);
-    }
+let firstFriday = 3;
+for (let friday = firstFriday; friday <= 28; friday += 7) {
+    console.log(`6: It's friday the ${friday}st, so it's time to do a report.`);
 }
